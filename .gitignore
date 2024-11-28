@@ -1,0 +1,26 @@
+
+# Ignora archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora configuraciones de entorno local
+.env
+
+# Ignora carpetas de configuración de IDEs
+.vscode/
+.idea/
+
+# Ignora archivos de logs
+*.log
+
+# Ignora archivos de caché de PHP y configuraciones temporales
+vendor/
+composer.lock
+
+# Ignora subidas y archivos temporales
+uploads/
+tmp/
+
+# Ignora archivos generados por sistemas de construcción de frontend (si se usan)
+node_modules/
+package-lock.json
